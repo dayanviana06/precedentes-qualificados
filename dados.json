@@ -2,10 +2,103 @@
  "versao": 1,
  "gerado_em": "2026-07-08",
  "fontes": [
-  "STJ (Dados Abertos — Precedentes Qualificados, automático)",
-  "Base curada verificada (STF/TJMA/Súmulas)"
+  "STF (Repercussão Geral)",
+  "STJ (Dados Abertos — Precedentes Qualificados)",
+  "TJMA (NUGEPNAC — fichas de IRDR/IAC)"
  ],
  "itens": [
+  {
+   "id": "stf-sv60",
+   "tribunal": "STF",
+   "especie": "SV",
+   "area": "Direito à Saúde",
+   "obrigatorio": true,
+   "validade": "Vigente",
+   "situacao": "Publicada em 20/09/2024",
+   "assuntos": [
+    "Saúde",
+    "Medicamentos",
+    "SUS",
+    "Súmula Vinculante"
+   ],
+   "numero": "Súmula Vinculante 60",
+   "fonte": "STF",
+   "titulo": "Observância dos acordos interfederativos do Tema 1.234 na judicialização de fármacos",
+   "resumo": "O pedido e a análise administrativos de fármacos, a judicialização e seus desdobramentos devem observar os acordos interfederativos homologados pelo STF no Tema 1.234 da repercussão geral.",
+   "completo": "O pedido e a análise administrativos de fármacos na rede pública de saúde, a judicialização do caso, bem ainda seus desdobramentos (administrativos e jurisdicionais), devem observar os termos dos três acordos interfederativos (e seus fluxos) homologados pelo Supremo Tribunal Federal, em governança judicial colaborativa, no tema 1.234 da sistemática da repercussão geral (RE 1.366.243).",
+   "explicacao": "Como súmula vinculante, obriga administração e Judiciário a seguirem os fluxos e acordos interfederativos definidos no Tema 1.234 quando o assunto for pedido e judicialização de fármacos.",
+   "emSuma": "Fármacos: pedido, judicialização e desdobramentos seguem os acordos interfederativos do Tema 1.234.",
+   "mnemonico": "",
+   "fluxograma": null,
+   "dispositivos": [],
+   "precedentes": "Vinculada ao Tema 1.234 (RE 1.366.243)",
+   "vinculos": [
+    "stf-t1234"
+   ]
+  },
+  {
+   "id": "stf-t1234",
+   "tribunal": "STF",
+   "especie": "RG",
+   "area": "Direito à Saúde",
+   "obrigatorio": true,
+   "validade": "Vigente",
+   "situacao": "Tese alterada em Sessão Extraordinária de 19/02/2026",
+   "assuntos": [
+    "Saúde",
+    "Medicamentos",
+    "SUS",
+    "Competência",
+    "Direito Constitucional"
+   ],
+   "numero": "Tema 1.234",
+   "fonte": "RE 1.366.243 — Rel. Min. Gilmar Mendes",
+   "titulo": "Legitimidade passiva da União e competência da Justiça Federal em medicamentos não padronizados no SUS",
+   "resumo": "Define a legitimidade passiva da União e a competência da Justiça Federal nas demandas sobre medicamentos registrados na ANVISA, mas não padronizados no SUS, com critérios de competência por faixa de valor e regras de custeio e ressarcimento entre os entes.",
+   "completo": "Tema 1.234 — Legitimidade passiva da União e competência da Justiça Federal nas demandas que versem sobre fornecimento de medicamentos registrados na ANVISA, mas não padronizados no SUS. A tese estabelece regras de competência conforme faixas de valor do medicamento, custeio integral pela União nos casos de sua competência e regime de ressarcimento entre os entes, aplicável às ações ajuizadas após a publicação da decisão. Redação vigente alterada em Sessão Extraordinária de 19/02/2026. [Consultar a redação integral e atualizada no portal do STF.]",
+   "explicacao": "Fixa quem responde e onde tramita a ação de medicamento não padronizado: a competência varia conforme a faixa de valor do medicamento, com regras de custeio pela União e de ressarcimento entre os entes. Como a redação foi alterada em fevereiro de 2026, convém conferir sempre a versão vigente antes de aplicar.",
+   "emSuma": "Em medicamento não padronizado no SUS, a competência (Justiça Federal ou Estadual) e o custeio seguem faixas de valor, com legitimidade da União.",
+   "mnemonico": "",
+   "fluxograma": null,
+   "dispositivos": [],
+   "precedentes": "RE 1.366.243/SC",
+   "vinculos": [
+    "stf-t6",
+    "stf-sv60",
+    "stf-t500"
+   ]
+  },
+  {
+   "id": "stf-t500",
+   "tribunal": "STF",
+   "especie": "RG",
+   "area": "Direito à Saúde",
+   "obrigatorio": true,
+   "validade": "Vigente",
+   "situacao": "Julgado em 2019",
+   "assuntos": [
+    "Saúde",
+    "Medicamentos",
+    "ANVISA",
+    "Competência",
+    "Direito Constitucional"
+   ],
+   "numero": "Tema 500",
+   "fonte": "STF — Repercussão Geral",
+   "titulo": "Fornecimento de medicamento sem registro na ANVISA",
+   "resumo": "O Estado, como regra, não pode ser obrigado a fornecer medicamento sem registro na ANVISA. A exceção foi admitida mediante requisitos específicos, mantida a competência da Justiça Federal, com propositura em face da União.",
+   "completo": "O Estado não pode ser obrigado a fornecer medicamentos sem registro na ANVISA, admitida exceção condicionada ao cumprimento de requisitos definidos pelo STF. Conforme reafirmado no Tema 1.234, mantém-se a competência da Justiça Federal para as ações que demandem fornecimento de medicamentos sem registro na ANVISA, que deverão ser propostas em face da União. [Consultar a redação integral no portal do STF.]",
+   "explicacao": "Trata do medicamento que sequer tem registro na ANVISA. A regra é não fornecer; a exceção depende de requisitos rígidos, e a ação corre na Justiça Federal, contra a União.",
+   "emSuma": "Medicamento sem registro na ANVISA, em regra, não é fornecido; a exceção corre na Justiça Federal, contra a União.",
+   "mnemonico": "",
+   "fluxograma": null,
+   "dispositivos": [],
+   "precedentes": "Tema 500/STF",
+   "vinculos": [
+    "stf-t1234",
+    "stf-t6"
+   ]
+  },
   {
    "id": "stf-t6",
    "tribunal": "STF",
@@ -65,38 +158,6 @@
    ]
   },
   {
-   "id": "stf-t1234",
-   "tribunal": "STF",
-   "especie": "RG",
-   "area": "Direito à Saúde",
-   "obrigatorio": true,
-   "validade": "Vigente",
-   "situacao": "Tese alterada em Sessão Extraordinária de 19/02/2026",
-   "assuntos": [
-    "Saúde",
-    "Medicamentos",
-    "SUS",
-    "Competência",
-    "Direito Constitucional"
-   ],
-   "numero": "Tema 1.234",
-   "fonte": "RE 1.366.243 — Rel. Min. Gilmar Mendes",
-   "titulo": "Legitimidade passiva da União e competência da Justiça Federal em medicamentos não padronizados no SUS",
-   "resumo": "Define a legitimidade passiva da União e a competência da Justiça Federal nas demandas sobre medicamentos registrados na ANVISA, mas não padronizados no SUS, com critérios de competência por faixa de valor e regras de custeio e ressarcimento entre os entes.",
-   "completo": "Tema 1.234 — Legitimidade passiva da União e competência da Justiça Federal nas demandas que versem sobre fornecimento de medicamentos registrados na ANVISA, mas não padronizados no SUS. A tese estabelece regras de competência conforme faixas de valor do medicamento, custeio integral pela União nos casos de sua competência e regime de ressarcimento entre os entes, aplicável às ações ajuizadas após a publicação da decisão. Redação vigente alterada em Sessão Extraordinária de 19/02/2026. [Consultar a redação integral e atualizada no portal do STF.]",
-   "explicacao": "Fixa quem responde e onde tramita a ação de medicamento não padronizado: a competência varia conforme a faixa de valor do medicamento, com regras de custeio pela União e de ressarcimento entre os entes. Como a redação foi alterada em fevereiro de 2026, convém conferir sempre a versão vigente antes de aplicar.",
-   "emSuma": "Em medicamento não padronizado no SUS, a competência (Justiça Federal ou Estadual) e o custeio seguem faixas de valor, com legitimidade da União.",
-   "mnemonico": "",
-   "fluxograma": null,
-   "dispositivos": [],
-   "precedentes": "RE 1.366.243/SC",
-   "vinculos": [
-    "stf-t6",
-    "stf-sv60",
-    "stf-t500"
-   ]
-  },
-  {
    "id": "stf-t793",
    "tribunal": "STF",
    "especie": "RG",
@@ -124,66 +185,6 @@
    "precedentes": "RE 855.178/PE",
    "vinculos": [
     "stf-t6"
-   ]
-  },
-  {
-   "id": "stf-t500",
-   "tribunal": "STF",
-   "especie": "RG",
-   "area": "Direito à Saúde",
-   "obrigatorio": true,
-   "validade": "Vigente",
-   "situacao": "Julgado em 2019",
-   "assuntos": [
-    "Saúde",
-    "Medicamentos",
-    "ANVISA",
-    "Competência",
-    "Direito Constitucional"
-   ],
-   "numero": "Tema 500",
-   "fonte": "STF — Repercussão Geral",
-   "titulo": "Fornecimento de medicamento sem registro na ANVISA",
-   "resumo": "O Estado, como regra, não pode ser obrigado a fornecer medicamento sem registro na ANVISA. A exceção foi admitida mediante requisitos específicos, mantida a competência da Justiça Federal, com propositura em face da União.",
-   "completo": "O Estado não pode ser obrigado a fornecer medicamentos sem registro na ANVISA, admitida exceção condicionada ao cumprimento de requisitos definidos pelo STF. Conforme reafirmado no Tema 1.234, mantém-se a competência da Justiça Federal para as ações que demandem fornecimento de medicamentos sem registro na ANVISA, que deverão ser propostas em face da União. [Consultar a redação integral no portal do STF.]",
-   "explicacao": "Trata do medicamento que sequer tem registro na ANVISA. A regra é não fornecer; a exceção depende de requisitos rígidos, e a ação corre na Justiça Federal, contra a União.",
-   "emSuma": "Medicamento sem registro na ANVISA, em regra, não é fornecido; a exceção corre na Justiça Federal, contra a União.",
-   "mnemonico": "",
-   "fluxograma": null,
-   "dispositivos": [],
-   "precedentes": "Tema 500/STF",
-   "vinculos": [
-    "stf-t1234",
-    "stf-t6"
-   ]
-  },
-  {
-   "id": "stf-sv60",
-   "tribunal": "STF",
-   "especie": "SV",
-   "area": "Direito à Saúde",
-   "obrigatorio": true,
-   "validade": "Vigente",
-   "situacao": "Publicada em 20/09/2024",
-   "assuntos": [
-    "Saúde",
-    "Medicamentos",
-    "SUS",
-    "Súmula Vinculante"
-   ],
-   "numero": "Súmula Vinculante 60",
-   "fonte": "STF",
-   "titulo": "Observância dos acordos interfederativos do Tema 1.234 na judicialização de fármacos",
-   "resumo": "O pedido e a análise administrativos de fármacos, a judicialização e seus desdobramentos devem observar os acordos interfederativos homologados pelo STF no Tema 1.234 da repercussão geral.",
-   "completo": "O pedido e a análise administrativos de fármacos na rede pública de saúde, a judicialização do caso, bem ainda seus desdobramentos (administrativos e jurisdicionais), devem observar os termos dos três acordos interfederativos (e seus fluxos) homologados pelo Supremo Tribunal Federal, em governança judicial colaborativa, no tema 1.234 da sistemática da repercussão geral (RE 1.366.243).",
-   "explicacao": "Como súmula vinculante, obriga administração e Judiciário a seguirem os fluxos e acordos interfederativos definidos no Tema 1.234 quando o assunto for pedido e judicialização de fármacos.",
-   "emSuma": "Fármacos: pedido, judicialização e desdobramentos seguem os acordos interfederativos do Tema 1.234.",
-   "mnemonico": "",
-   "fluxograma": null,
-   "dispositivos": [],
-   "precedentes": "Vinculada ao Tema 1.234 (RE 1.366.243)",
-   "vinculos": [
-    "stf-t1234"
    ]
   },
   {
@@ -310,6 +311,32 @@
    "vinculos": []
   },
   {
+   "id": "stj-jt161-10",
+   "tribunal": "STJ",
+   "especie": "JT",
+   "area": "Direito do Consumidor",
+   "obrigatorio": false,
+   "validade": "Vigente",
+   "situacao": "Jurisprudência em Teses (compilação — não vinculante por si)",
+   "assuntos": [
+    "Consumidor",
+    "FIES",
+    "Contratos"
+   ],
+   "numero": "Jurisp. em Teses, ed. 161, tese 10",
+   "fonte": "STJ — Direito do Consumidor V",
+   "titulo": "Inaplicabilidade do CDC aos contratos do FIES",
+   "resumo": "As regras do CDC não se aplicam aos contratos do Programa de Financiamento Estudantil (FIES), por não se tratar de serviço bancário, mas de programa governamental custeado pela União.",
+   "completo": "As regras do CDC não se aplicam aos contratos firmados no âmbito do Programa de Financiamento Estudantil – FIES, pois não se trata de serviço bancário, mas de programa governamental custeado pela União.",
+   "explicacao": "Contratos do FIES não seguem o CDC, porque não são serviço bancário, e sim programa do governo custeado pela União.",
+   "emSuma": "FIES não é serviço bancário: não se aplica o CDC.",
+   "mnemonico": "",
+   "fluxograma": null,
+   "dispositivos": [],
+   "precedentes": "Jurisprudência em Teses, STJ",
+   "vinculos": []
+  },
+  {
    "id": "stj-jt161-8",
    "tribunal": "STJ",
    "especie": "JT",
@@ -330,32 +357,6 @@
    "completo": "As instituições financeiras são responsáveis por reparar os danos sofridos pelo consumidor que tenha o cartão de crédito roubado, furtado ou extraviado e que venha a ser utilizado indevidamente, ressalvadas as hipóteses de culpa exclusiva do consumidor ou de terceiros.",
    "explicacao": "Cartão roubado, furtado ou extraviado e usado por terceiro gera responsabilidade do banco pelos danos, salvo se o próprio consumidor ou um terceiro tiver culpa exclusiva.",
    "emSuma": "Banco responde por cartão furtado/extraviado usado por terceiro, salvo culpa exclusiva do consumidor ou de terceiro.",
-   "mnemonico": "",
-   "fluxograma": null,
-   "dispositivos": [],
-   "precedentes": "Jurisprudência em Teses, STJ",
-   "vinculos": []
-  },
-  {
-   "id": "stj-jt161-10",
-   "tribunal": "STJ",
-   "especie": "JT",
-   "area": "Direito do Consumidor",
-   "obrigatorio": false,
-   "validade": "Vigente",
-   "situacao": "Jurisprudência em Teses (compilação — não vinculante por si)",
-   "assuntos": [
-    "Consumidor",
-    "FIES",
-    "Contratos"
-   ],
-   "numero": "Jurisp. em Teses, ed. 161, tese 10",
-   "fonte": "STJ — Direito do Consumidor V",
-   "titulo": "Inaplicabilidade do CDC aos contratos do FIES",
-   "resumo": "As regras do CDC não se aplicam aos contratos do Programa de Financiamento Estudantil (FIES), por não se tratar de serviço bancário, mas de programa governamental custeado pela União.",
-   "completo": "As regras do CDC não se aplicam aos contratos firmados no âmbito do Programa de Financiamento Estudantil – FIES, pois não se trata de serviço bancário, mas de programa governamental custeado pela União.",
-   "explicacao": "Contratos do FIES não seguem o CDC, porque não são serviço bancário, e sim programa do governo custeado pela União.",
-   "emSuma": "FIES não é serviço bancário: não se aplica o CDC.",
    "mnemonico": "",
    "fluxograma": null,
    "dispositivos": [],
